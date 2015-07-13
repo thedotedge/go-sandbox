@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"time"
 	"math/rand"
+	"github.com/go-martini/martini"
 )
 
 func main() {
@@ -23,7 +24,7 @@ func swap(x, y string) (string, string) {
 
 func split(sum int) (x, y, z int) {
 	x = sum * 4 / 9
-	y = sum - x
+	y = sum - x + 2
 	z = sum + x
 	return
 }
