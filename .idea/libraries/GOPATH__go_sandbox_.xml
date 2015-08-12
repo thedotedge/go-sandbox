@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;go-sandbox&gt;">
+    <CLASSES>
+      <root url="file://$USER_HOME$/go/src/github.com" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <excluded>
+      <root url="file://$USER_HOME$/go/src/github.com/codegangsta/gin/.git" />
+      <root url="file://$USER_HOME$/go/src/github.com/codegangsta/envy/.git" />
+      <root url="file://$USER_HOME$/go/src/github.com/gorilla/context/.git" />
+      <root url="file://$USER_HOME$/go/src/github.com/qor/inflection/.git" />
+      <root url="file://$USER_HOME$/go/src/github.com/codegangsta/cli/.git" />
+      <root url="file://$USER_HOME$/go/src/github.com/lib/pq/.git" />
+      <root url="file://$USER_HOME$/go/src/github.com/codegangsta/inject/.git" />
+      <root url="file://$PROJECT_DIR$" />
+      <root url="file://$USER_HOME$/go/src/github.com/gorilla/mux/.git" />
+      <root url="file://$USER_HOME$/go/src/github.com/go-sql-driver/mysql/.git" />
+      <root url="file://$USER_HOME$/go/src/github.com/go-martini/martini/.git" />
+      <root url="file://$USER_HOME$/go/src/github.com/jinzhu/gorm/.git" />
+    </excluded>
+  </library>
+</component>

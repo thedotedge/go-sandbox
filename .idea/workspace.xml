@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8d658a2-3d62-43a4-bf3e-79c251fe7e77" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/go-sandbox.iml" afterPath="$PROJECT_DIR$/.idea/go-sandbox.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/goLibraries.xml" afterPath="$PROJECT_DIR$/.idea/goLibraries.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/step.go" afterPath="$PROJECT_DIR$/step.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="go-sandbox.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,8 +30,8 @@
       <file leaf-file-name="step.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/step.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2294455">
-              <caret line="6" column="34" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.36158192">
+              <caret line="25" column="66" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -56,6 +58,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$USER_HOME$/go/src/github.com/jinzhu/gorm/scope_private.go" />
         <option value="$PROJECT_DIR$/step.go" />
       </list>
     </option>
@@ -64,13 +67,20 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="NamedScopeManager">
     <order />
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1439" />
-    <option name="height" value="873" />
+    <option name="width" value="2560" />
+    <option name="height" value="1413" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -99,14 +109,56 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="go-sandbox" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="go-sandbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Go 1.4.2 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="go-sandbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Go 1.4.2 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="os" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -121,6 +173,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -135,23 +189,21 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/step.go" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="configurable.Global.libraries.is.expanded" value="true" />
     <property name="configurable.Project.libraries.is.expanded" value="true" />
     <property name="configurable.Module.libraries.is.expanded" value="true" />
     <property name="FullScreen" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="go.libraries.notification.had.been.shown" value="true" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Go Single File.go run step.go">
-    <configuration default="false" name="go run step.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
-      <module name="go-sandbox" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/step.go" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Go Application.Go!">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module />
       <option name="WIDTH" value="400" />
@@ -250,6 +302,14 @@
       <kind value="FILE" />
       <method />
     </configuration>
+    <configuration default="true" type="GoGdbRunConfigurationType" factoryName="Go GDB" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="" />
+      <option name="GDB_PATH" value="gdb" />
+      <option name="APP_PATH" value="" />
+      <option name="STARTUP_COMMANDS" value="" />
+      <module name="" />
+      <method />
+    </configuration>
     <configuration default="true" type="GoRunFileConfiguration" factoryName="Go Single File">
       <module name="go-sandbox" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -306,6 +366,9 @@
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -369,6 +432,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -481,14 +550,18 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
+    <configuration default="false" name="Go!" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="go-sandbox" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/step.go" />
+      <kind value="FILE" />
+      <method>
+        <option name="MakeProject" enabled="true" />
+      </method>
+    </configuration>
     <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Go Single File.go run step.go" />
+      <item index="0" class="java.lang.String" itemvalue="Go Application.Go!" />
     </list>
-    <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Go Single File.go run step.go" />
-      </list>
-    </recent_temporary>
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
     </configuration>
@@ -506,42 +579,75 @@
       <updated>1436796862105</updated>
       <workItem from="1436796863955" duration="39000" />
       <workItem from="1436796905181" duration="165000" />
-      <workItem from="1436797107451" duration="739000" />
+      <workItem from="1436797107451" duration="859000" />
+      <workItem from="1436878629076" duration="553000" />
+      <workItem from="1437379049769" duration="1791000" />
+      <workItem from="1437572112626" duration="1193000" />
+      <workItem from="1438782320465" duration="6272000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="943000" />
+    <option name="totallyTimeSpent" value="10872000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1439" height="873" extended-state="6" />
+    <frame x="0" y="23" width="2560" height="1413" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="100" y="123" width="1240" height="673" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle View" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290653" sideWeight="0.50250536" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37774414" sideWeight="0.50417495" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14173229" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290653" sideWeight="0.49749464" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24320458" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38682815" sideWeight="0.49582505" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37774414" sideWeight="0.50417495" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24320458" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.6356688" sideWeight="0.49582505" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle View" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -555,10 +661,28 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/step.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/step.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/step.go">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -579,14 +703,356 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.4.2/libexec/src/os/doc.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.4.2/libexec/src/os/file_unix.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3330292">
+          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.4.2/libexec/src/os/file.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25821167">
+          <caret line="95" column="38" selection-start-line="95" selection-start-column="14" selection-end-line="95" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.4.2/libexec/src/builtin/builtin.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.676259">
+          <caret line="253" column="5" selection-start-line="253" selection-start-column="5" selection-end-line="253" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.4.2/libexec/src/io/io.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36870503">
+          <caret line="66" column="36" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.4.2/libexec/src/strconv/atoi.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21924482">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.4.2/libexec/src/errors/errors.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26796588">
+          <caret line="11" column="34" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/src/github.com/gorilla/mux/mux.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22249691">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="/.../" />
+            <marker date="1439377182000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="/.../" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="/.../" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="/.../" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="/.../" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="/.../" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="/.../" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="/.../" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="/.../" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="/.../" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="/.../" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="/.../" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="/.../" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="/.../" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="/.../" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="/.../" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="/.../" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="/.../" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="/.../" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="/.../" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="/.../" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="/.../" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="/.../" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="/.../" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="/.../" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="/.../" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="/.../" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="/.../" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439377182000" expanded="true" signature="-1:-1" placeholder="/.../" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.4.2/libexec/src/os/env.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33250928">
+          <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+          <folding>
+            <marker date="1424234314000" expanded="true" signature="-1:-1" placeholder="/.../" />
+            <marker date="1424234314000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1424234314000" expanded="true" signature="-1:-1" placeholder="/.../" />
+            <marker date="1424234314000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424234314000" expanded="true" signature="-1:-1" placeholder="/.../" />
+            <marker date="1424234314000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424234314000" expanded="true" signature="-1:-1" placeholder="/.../" />
+            <marker date="1424234314000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424234314000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424234314000" expanded="true" signature="-1:-1" placeholder="/.../" />
+            <marker date="1424234314000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424234314000" expanded="true" signature="-1:-1" placeholder="/.../" />
+            <marker date="1424234314000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424234314000" expanded="true" signature="-1:-1" placeholder="/.../" />
+            <marker date="1424234314000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424234314000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424234314000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1424234314000" expanded="true" signature="-1:-1" placeholder="/.../" />
+            <marker date="1424234314000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/src/github.com/jinzhu/gorm/scope.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="309" column="20" selection-start-line="309" selection-start-column="20" selection-end-line="309" selection-end-column="20" />
+          <folding>
+            <marker date="1439379909000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/src/github.com/jinzhu/gorm/scope_private.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="511" column="20" selection-start-line="511" selection-start-column="20" selection-end-line="511" selection-end-column="20" />
+          <folding>
+            <marker date="1439386559000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1439386559000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439386559000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439386559000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439386559000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439386559000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439386559000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439386559000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439386559000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439386559000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439386559000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439386559000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439386559000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439386559000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439386559000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439386559000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439386559000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439386559000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439386559000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439386559000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439386559000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439386559000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439386559000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439386559000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439386559000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439386559000" expanded="true" signature="-1:-1" placeholder="/*...*/" />
+            <marker date="1439386559000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439386559000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439386559000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439386559000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439386559000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439386559000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439386559000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439386559000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439386559000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439386559000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439386559000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439386559000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/src/github.com/jinzhu/gorm/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3559322">
+          <caret line="376" column="37" selection-start-line="376" selection-start-column="37" selection-end-line="376" selection-end-column="37" />
+          <folding>
+            <marker date="1439379909000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="/.../" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="/.../" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="/*...*/" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1439379909000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/step.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2294455">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.36158192">
+          <caret line="25" column="66" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
           <folding />
         </state>
       </provider>
@@ -594,6 +1060,30 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
           <last-edited>jquery-1.11.1</last-edited>
@@ -618,6 +1108,19 @@
           </splitter-proportions>
         </settings>
       </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>go-sandbox</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>Go 1.4.2</last-edited>
@@ -632,6 +1135,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>GOPATH &lt;go-sandbox&gt;</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
